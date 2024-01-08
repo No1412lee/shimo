@@ -51,7 +51,7 @@ node index.js
 导出可执行文件
 
 ```shell
-npm run build
+pkg .
 ```
 
 ## 依赖

@@ -1,1 +1,2 @@
-shimoExporter.exe filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+shimo-node14-macos filter=lfs diff=lfs merge=lfs -text
