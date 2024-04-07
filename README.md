@@ -58,4 +58,5 @@ pkg .
 
 ```
 node ^13
+npm install -g pkg
 ```

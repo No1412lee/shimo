@@ -80,7 +80,7 @@ async function createExportTask(item, basePath = '') {
         let type = '';
         const name = replaceBadChar(item.name);
         let downloadUrl = '';
-        if (item.type == 'docx' || item.type == 'doc' ||
+        if (item.type == 'docx' || item.type == 'doc' || item.name.endsWith('rtf') ||
             item.type == 'pptx' || item.type == 'ppt' ||
             item.type == 'pdf')
         {
